@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/day_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="Enter Day between 1 and 31"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/month_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:ems="10"
+            android:hint="Enter Month between 1 and 12"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/year_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:ems="10"
+            android:hint="Enter Year (2017 or 2018)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/date_range_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:ems="10"
+            android:hint="Enter Date Range between 1 and 30"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/create_database_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Create Database" />
+
+        <Button
+            android:id="@+id/view_results_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Show Me The Money" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="2dp"
+            android:text="Enter day between January 1, 2017 and March 2, 2018, both days inclusive"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>

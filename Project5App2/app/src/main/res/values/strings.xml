@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Balance Service</string>
+    <string name="service_description">Service required for Project 5</string>
+</resources>
